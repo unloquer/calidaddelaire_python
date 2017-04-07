@@ -1,0 +1,685 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:06:20.00",
+        "alt": "1516.20",
+        "course": "INVALID",
+        "speed": "INVALID",
+        "hum": "44.00",
+        "temp": "27.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597715,
+          6.259067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:06:34.00",
+        "alt": "1515.60",
+        "course": 273.63,
+        "speed": 10.98,
+        "hum": "44.00",
+        "temp": "27.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597977,
+          6.258842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:06:48.00",
+        "alt": "1516.00",
+        "course": "349.20",
+        "speed": 12.32,
+        "hum": "44.00",
+        "temp": "27.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.598365,
+          6.258963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:07:02.00",
+        "alt": "1521.10",
+        "course": 8.67,
+        "speed": 14.43,
+        "hum": "44.00",
+        "temp": "27.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.598413,
+          6.259602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:07:16.00",
+        "alt": "1525.00",
+        "course": 9.29,
+        "speed": 13.76,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.598302,
+          6.260113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:07:30.00",
+        "alt": "1525.00",
+        "course": 10.94,
+        "speed": 13.24,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.59818,
+          6.260577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:07:44.00",
+        "alt": "1529.10",
+        "course": 11.97,
+        "speed": 12.82,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.598108,
+          6.26102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:07:58.00",
+        "alt": "1529.80",
+        "course": 12.53,
+        "speed": "11.80",
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.598025,
+          6.261447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:08:12.00",
+        "alt": "1524.60",
+        "course": 20.56,
+        "speed": 11.69,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597893,
+          6.26186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:08:26.00",
+        "alt": "1526.20",
+        "course": 11.17,
+        "speed": 11.35,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597768,
+          6.26225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:08:40.00",
+        "alt": "1525.40",
+        "course": 11.17,
+        "speed": 11.35,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597717,
+          6.262693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:08:54.00",
+        "alt": "1522.60",
+        "course": 11.17,
+        "speed": 11.35,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.59793,
+          6.26287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:09:08.00",
+        "alt": "1526.50",
+        "course": 11.17,
+        "speed": 11.35,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.598327,
+          6.262975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:09:22.00",
+        "alt": "1524.60",
+        "course": 11.17,
+        "speed": 11.35,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.598688,
+          6.263047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:09:36.00",
+        "alt": "1526.30",
+        "course": 11.17,
+        "speed": 11.35,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.599062,
+          6.263112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:09:50.00",
+        "alt": "1527.40",
+        "course": 11.17,
+        "speed": 11.35,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.599467,
+          6.263232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:10:04.00",
+        "alt": "1530.00",
+        "course": 280.46,
+        "speed": 8.26,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.599848,
+          6.263323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:10:18.00",
+        "alt": "1530.90",
+        "course": 280.46,
+        "speed": 8.26,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.600155,
+          6.263333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:10:32.00",
+        "alt": "1532.60",
+        "course": 277.24,
+        "speed": 8.19,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.600522,
+          6.26339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:10:46.00",
+        "alt": "1536.50",
+        "course": 45.47,
+        "speed": 10.32,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.600465,
+          6.263655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:11:00.00",
+        "alt": "1536.50",
+        "course": 38.03,
+        "speed": 11.52,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.60022,
+          6.263998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:11:14.00",
+        "alt": "1533.20",
+        "course": 38.03,
+        "speed": 11.52,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.599917,
+          6.264223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:11:28.00",
+        "alt": "1534.70",
+        "course": 38.03,
+        "speed": 11.52,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.599448,
+          6.26414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:11:42.00",
+        "alt": "1533.40",
+        "course": 38.03,
+        "speed": 11.52,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.598575,
+          6.263953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:11:56.00",
+        "alt": "1527.60",
+        "course": 38.03,
+        "speed": 11.52,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.59769,
+          6.263748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:12:10.00",
+        "alt": "1523.30",
+        "course": 38.03,
+        "speed": 11.52,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597412,
+          6.263617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:12:24.00",
+        "alt": "1522.20",
+        "course": 38.03,
+        "speed": 11.52,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.59743,
+          6.263562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:12:38.00",
+        "alt": "1522.20",
+        "course": 38.03,
+        "speed": 11.52,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.59743,
+          6.263562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:12:52.00",
+        "alt": "1522.20",
+        "course": 181.17,
+        "speed": "0.00",
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.59743,
+          6.263562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:13:06.00",
+        "alt": "1522.20",
+        "course": 181.17,
+        "speed": "0.00",
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.59743,
+          6.263562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:13:20.00",
+        "alt": "1522.70",
+        "course": 114.76,
+        "speed": 4.07,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597303,
+          6.263462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:13:34.00",
+        "alt": "1522.60",
+        "course": 81.16,
+        "speed": "0.00",
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.59733,
+          6.263487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:13:48.00",
+        "alt": "1522.70",
+        "course": 276.31,
+        "speed": 1.74,
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597417,
+          6.263492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date": "4/4/2017",
+        "hour": "07:14:02.00",
+        "alt": "1522.40",
+        "course": "275.60",
+        "speed": "0.00",
+        "hum": "45.00",
+        "temp": "26.00",
+        "pm25": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.597508,
+          6.26346
+        ]
+      }
+    }
+  ]
+}
