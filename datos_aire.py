@@ -37,11 +37,11 @@ def loadCsv(file):
     return dataset
 
 dataset=loadCsv('csv_brolin.txt') #usar esta linea para cargar todos los csv
-#dataset=loadJson('aire_brol2.json')#usar esta linea para cargar el jsopn
+#dataset=loadJson('aire_brol2.json')#usar esta linea para cargar el json
 
 #redondear las coordenadas de dataset 
 #ajustar los decimales en "dec"
-dec=3 #numero de decimales de precision de las coordenadas
+dec=5 #numero de decimales de precision de las coordenadas
 dataset[:,0]=np.around(dataset[:,0],dec) #redondear los datos x
 dataset[:,1]=np.around(dataset[:,1],dec) #redondear los datos y
 
@@ -62,16 +62,14 @@ for position in zet:
 		if x[:2][0]==position[0]:
 			heatid.append(x[2])
 	
-	x_map.append(position[0])
-	y_map.append(position[1])
+	x_map.append(position[1])
+	y_map.append(position[0])
 	p_map.append(np.mean(heatid))
 
 #hacer un plot
-plt.scatter(x_map, y_map, marker="s", edgecolors="face", s=50, c=p_map, alpha=0.5)
+plt.scatter(x_map, y_map, marker="s", edgecolors="face", s=5, c=p_map, alpha=0.5)
 # plt.xlim(min(x_map),max(x_map))
 # plt.ylim(min(y_map),max(y_map))
 plt.axis('scaled')
 
 plt.show()
-
-    	
