@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import json
 import pandas as pd
 
-csv_online = pd.read_csv('https://raw.githubusercontent.com/daquina-io/visualizacionCalidadAire/master/data/points.csv', index_col=0)
-#print csv_online
+
 
 
 def loadJson(file):
@@ -27,17 +26,21 @@ def loadCsv(file):
 #cargar un csv con todos los datos
 #retorna un dataset con coordenadas y pm25
     dataset=[]
-    with open(file) as rawdata:
-        for rawline in rawdata:
-            coord=[]
-            linelist=[x for x in rawline.split(',')]
-            print linelist
-            if "INVALID" not in linelist and 'lat' not in linelist:
-                coord.append([float(linelist[0]),float(linelist[1]),float(linelist[9][:-1])])
-                #print coord[0]
-                dataset.append(coord[0])
+    # with open(file) as rawdata:
+    #     for rawline in rawdata:
+    #         
+    #         linelist=[x for x in rawline.split(',')]
+    csv_online = pd.read_csv('https://raw.githubusercontent.com/daquina-io/visualizacionCalidadAire/master/data/points.csv')
+
+    for linelist in np.array(csv_online):
+        coord=[]
+        linelist=list(linelist)
+        #print linelist
+        #course es lineslist[5] y speed es linelist[6]
+        if "INVALID" not in linelist and 'lat' not in linelist:
+            coord.append([float(linelist[0]),float(linelist[1]),float(linelist[9])])
+            dataset.append(coord[0])
     dataset=np.array(dataset)
-    #print dataset
     return dataset
 
 dataset=loadCsv('csv_brolin.txt') #usar esta linea para cargar todos los csv
