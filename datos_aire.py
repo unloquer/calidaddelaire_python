@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import json
+import pandas as pd
+
+csv_online = pd.read_csv('https://raw.githubusercontent.com/daquina-io/visualizacionCalidadAire/master/data/points.csv', index_col=0)
+#print csv_online
 
 
 def loadJson(file):
@@ -27,7 +31,7 @@ def loadCsv(file):
         for rawline in rawdata:
             coord=[]
             linelist=[x for x in rawline.split(',')]
-            #print linelist
+            print linelist
             if "INVALID" not in linelist and 'lat' not in linelist:
                 coord.append([float(linelist[0]),float(linelist[1]),float(linelist[9][:-1])])
                 #print coord[0]
