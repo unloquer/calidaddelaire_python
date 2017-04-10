@@ -10,4 +10,4 @@ También debe resolverse un asunto sobre la calibración de los sensores y el ti
 
 Estas funcionalidades del análisis se irán implementando poco a poco. Por el momento solo aplana los datos.
 
-Acepta Json y txt en csv. revisar los datasets adjuntos para entender el formato.
+La base de datos las lee desde una dirección online en formato csv.
